@@ -1,0 +1,6 @@
+rootProject.name = 'hibernate-6'
+include 'main-class-jpa-only'
+include 'main-class-hibernate-api'
+include 'main-class-hibernate-api'
+include 'query-method'
+
