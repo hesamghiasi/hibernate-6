@@ -17,13 +17,15 @@
 
             <!-- H2 in-memory database -->
             <property name="jakarta.persistence.jdbc.url"
-                      value="jdbc:h2:mem:db1"/>
+                      value="jdbc:mysql://localhost:3306/testdb"/>
+
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 
             <!-- Credentials -->
             <property name="jakarta.persistence.jdbc.user"
-                      value="sa"/>
+                      value="root"/>
             <property name="jakarta.persistence.jdbc.password"
-                      value=""/>
+                      value="123456"/>
 
             <!-- Agroal connection pool -->
             <property name="hibernate.agroal.maxSize"
